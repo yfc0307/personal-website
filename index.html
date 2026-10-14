@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack Chen - Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -32,7 +32,6 @@
                 <h1>Chen Yufan Jack</h1>
                 <p class="hero-subtitle">Data Science | Artificial Intelligence | Computer Vision | Multimodal AI</p>
                 <p class="hero-description">I am a graduate of Hong Kong Metropolitan University with a focus on computer vision, machine learning, large language models, and multimodal foundation AI.</p>
-                <a href="#contact" class="btn">Get In Touch</a>
             </div>
         </div>
     </section>
@@ -58,14 +57,22 @@
     <section id="education" class="education">
         <div class="container">
             <h2 class="section-title">Education</h2>
-            <article class="education-entry">
-                <!-- Replace the bracketed text with your education details. -->
-                <p class="education-meta">2022 – 2026</p>
-                <h3>Bachelor of Science with Honours in Data Science and Artificial Intelligence</h3>
-                <p>Hong Kong Metropolitan University, Hong Kong</p>
-                <p>Relevant coursework: Machine Learning, Statistical Modelling, Data Engineering.</p>
-                <p>Highlights: First Class Honours, Award GPA: 3.58</p>
-            </article>
+            <div class="education-list">
+                <article class="education-entry">
+                    <!-- Replace the bracketed text with your education details. -->
+                    <p class="education-meta">2026 – Ongoing</p>
+                    <h3>Master of Science in Data Science</h3>
+                    <p>University of Glasgow, United Kingdom</p>
+                    <p>Relevant coursework: Deep Learning, Text Analysis, Web Science.</p>
+                </article>
+                <article class="education-entry">
+                    <p class="education-meta">2022 – 2026</p>
+                    <h3>Bachelor of Science with Honours in Data Science and Artificial Intelligence</h3>
+                    <p>Hong Kong Metropolitan University, Hong Kong</p>
+                    <p>Relevant coursework: Machine Learning, Statistical Modelling, Data Engineering.</p>
+                    <p>Highlights: First Class Honours, Award GPA: 3.58</p>
+                </article>
+            </div>
         </div>
     </section>
 
@@ -96,18 +103,18 @@
             <h2 class="section-title">Research Experience</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-meta">Data Science Project (BSc DSAI, HKMU)</div>
+                    <div class="project-meta">Research Project (2026 Jan - Ongoing, as Research Assistant)</div>
+                    <div class="project-content">
+                        <h3>Development of a Novel Interpretable Framework for Rank-Aware Visual Recognition</h3>
+                        <p>Explored various existing CLIP prompt tuning methods for ordinal medical imaging tasks, supervised by Dr. Chen Xueli from HKMU.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-meta">Data Science Project (2025 Sep - 2026 Apr, BSc DSAI, HKMU)</div>
                     <div class="project-content">
                         <h3>Statistical Modelling of Count Data with Excessive Zeros and Overdispersion</h3>
                         <p>Studied the performance of various statistical models on hemophilia count data with excessive zeros and overdispersion.</p>
                         <a href="https://1drv.ms/b/c/7ab4a255b0a8a869/IQBvvW3_N2y6QKBUTN7BA5jxAbppN7Tj5mN03P2LijcWwkY?e=6owyhO" class="project-link">View Project →</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-meta">Research Project (Ongoing, as Research Assistant)</div>
-                    <div class="project-content">
-                        <h3>Rank-Aware Medical VLMs</h3>
-                        <p>Explored various existing CLIP prompt tuning methods for ordinal medical imaging tasks, supervised by Dr. Chen Xueli.</p>
                     </div>
                 </div>
             </div>
@@ -117,14 +124,20 @@
     <!-- Recent Project Section -->
     <section id="recent-project" class="projects">
         <div class="container">
-            <h2 class="section-title">Recent Project</h2>
+            <h2 class="section-title">Recent Hobby Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-meta">Latest Work</div>
                     <div class="project-content">
                         <h3>University Rankings Analysis</h3>
                         <p>Designed a new quantitative method for analysing university rankings.</p>
-                        <a href="https://docs.google.com/document/d/1FA2OBdV3581tiGFKAio9zPzTU4MMRgEq-YW4W7ChfY4/edit?usp=sharing" class="project-link">View Project →</a>
+                        <a href="https://docs.google.com/spreadsheets/d/1I0zTea2P_xwir3Gy86cxVWYfUuSreBt_8Zv84Jki1E4/edit?usp=sharing" class="project-link">View Project →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>HKPlace</h3>
+                        <p>A simple web-based mini game for promoting Hong Kong tourism.</p>
+                        <a href="https://github.com/yfc0307/HKPlace" class="project-link">View Project →</a>
                     </div>
                 </div>
             </div>
@@ -149,6 +162,9 @@
                     </div>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/yufan-chen-0832aa2a4/" class="social-link">LinkedIn</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/yfc0307" class="social-link">Github</a>
                     </div>
                 </div>
             </div>

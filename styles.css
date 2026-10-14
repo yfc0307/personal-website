@@ -179,6 +179,16 @@ h3 {
 }
 
 /* Education */
+.education-list {
+    display: grid;
+    gap: 18px;
+}
+
+.education-entry + .education-entry {
+    border-top: 1px solid var(--border);
+    padding-top: 18px;
+}
+
 .education-meta {
     margin-bottom: 4px;
     font-size: 13px;
