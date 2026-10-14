@@ -178,6 +178,24 @@ h3 {
     margin-top: 8px;
 }
 
+/* Education */
+.education-meta {
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+.education-entry h3 {
+    margin-bottom: 6px;
+}
+
+.education-entry p {
+    color: var(--muted);
+}
+
+.education-entry p + p {
+    margin-top: 4px;
+}
+
 /* Skills */
 .skills-grid {
     display: grid;
