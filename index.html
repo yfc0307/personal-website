@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main navigation">
         <div class="container">
             <div class="nav-brand">Chen Yufan Jack</div>
             <ul class="nav-menu">
@@ -22,13 +23,14 @@
         </div>
     </nav>
 
+    <main id="main-content">
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Hello, I'm <span class="highlight">Chen Yufan Jack</span></h1>
+                <h1>Chen Yufan Jack</h1>
                 <p class="hero-subtitle">Data Science | Artificial Intelligence | Large Language Models | Multimodal AI</p>
-                <p class="hero-description">I am a fresh graduate from Hong Kong Metropolitan University with a strong focus on data mining, machine learning, large language models, and their interdis[...]
+                <p class="hero-description">I am a graduate of Hong Kong Metropolitan University with a focus on data mining, machine learning, large language models, and multimodal AI.</p>
                 <a href="#contact" class="btn">Get In Touch</a>
             </div>
         </div>
@@ -43,9 +45,9 @@
                     <img src="image.jpg" alt="Jack Chen" class="about-photo">
                 </div>
                 <div class="about-text">
-                    <p>My working experiences cover business-level data mining and visualization, application of LLMs and VLMs.</p>
-                    <p>My research experience in statistical modelling and medical VLMs prompt tuning.</p>
-                    <p>My future research focuses on application of LLMs and VLMs in internet information retrieval, social media monitoring, and multimedia content analysis.</p>
+                    <p>My work experience covers business-level data mining and visualization, and applications of LLMs and VLMs.</p>
+                    <p>My research experience includes statistical modelling and prompt tuning for medical VLMs.</p>
+                    <p>My future research focuses on applications of LLMs and VLMs in internet information retrieval, social media monitoring, and multimedia content analysis.</p>
                 </div>
             </div>
         </div>
@@ -57,19 +59,16 @@
             <h2 class="section-title">Skills & Expertise</h2>
             <div class="skills-grid">
                 <div class="skill-card">
-                    <div class="skill-icon">📊</div>
                     <h3>Data Analysis</h3>
                     <p>Data mining, machine learning, and statistical analysis</p>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon">💻</div>
                     <h3>Web Development</h3>
                     <p>HTML, CSS, NodeJS, and modern web technologies</p>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon">🤖</div>
                     <h3>Multimodal AI</h3>
-                    <p>Application of LLMs and VLMs, Medical Imaging, Object Detection</p>
+                    <p>Applications of LLMs and VLMs, medical imaging, and object detection</p>
                 </div>
             </div>
         </div>
@@ -78,10 +77,10 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Featured Research Experiences</h2>
+            <h2 class="section-title">Research Experience</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-image">Data Science Project (BSc DSAI, HKMU)</div>
+                    <div class="project-meta">Data Science Project (BSc DSAI, HKMU)</div>
                     <div class="project-content">
                         <h3>Statistical Modelling of Count Data with Excessive Zeros and Overdispersion</h3>
                         <p>Studied the performance of various statistical models on hemophilia count data with excessive zeros and overdispersion.</p>
@@ -89,11 +88,10 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image">Research Project (Ongoing, as Research Assistant)</div>
+                    <div class="project-meta">Research Project (Ongoing, as Research Assistant)</div>
                     <div class="project-content">
                         <h3>Rank-Aware Medical VLMs</h3>
                         <p>Explored various existing CLIP prompt tuning methods for ordinal medical imaging tasks, supervised by Dr. Chen Xueli.</p>
-                        <a href="#" class="project-link" hidden="True">View Project →</a>
                     </div>
                 </div>
             </div>
@@ -106,10 +104,10 @@
             <h2 class="section-title">Recent Project</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-image">Latest Work</div>
+                    <div class="project-meta">Latest Work</div>
                     <div class="project-content">
                         <h3>University Rankings Analysis</h3>
-                        <p>Designed a new quantitaive method for analysing University rankings.</p>
+                        <p>Designed a new quantitative method for analysing university rankings.</p>
                         <a href="https://docs.google.com/document/d/1FA2OBdV3581tiGFKAio9zPzTU4MMRgEq-YW4W7ChfY4/edit?usp=sharing" class="project-link">View Project →</a>
                     </div>
                 </div>
@@ -140,6 +138,8 @@
             </div>
         </div>
     </section>
+
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
